@@ -1,0 +1,5 @@
+# Shared cargo build
+target/
+
+# Chapter 01 build
+01_hello_world/main
