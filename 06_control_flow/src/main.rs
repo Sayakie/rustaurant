@@ -38,4 +38,15 @@ fn main() {
     };
 
     println!("The value from looping is: {result}");
+
+    // Conditional Loops with `while`
+    let mut number = 3;
+
+    while number != 0 {
+        println!("{number}!");
+
+        number -= 1;
+    }
+
+    println!("LIFTOFF!!");
 }
