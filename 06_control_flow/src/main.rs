@@ -7,4 +7,8 @@ fn main() {
     } else {
         println!("condition was false");
     }
+
+    if number != 0 {
+        println!("number was something other than zero");
+    }
 }
