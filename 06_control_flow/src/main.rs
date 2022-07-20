@@ -39,16 +39,10 @@ fn main() {
 
     println!("The value from looping is: {result}");
 
-    // Conditional Loops with `while`
-    let mut number = 3;
-
-    while number != 0 {
+    for number in (1..4).rev() {
         println!("{number}!");
-
-        number -= 1;
     }
-
-    println!("LIFTOFF!!");
+    println!("LIFTOFF!");
 
     let collection = [10, 20, 30, 40, 50];
 
