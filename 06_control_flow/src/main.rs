@@ -49,4 +49,10 @@ fn main() {
     }
 
     println!("LIFTOFF!!");
+
+    let collection = [10, 20, 30, 40, 50];
+
+    for element in collection {
+        println!("[Collection] The value is {element}");
+    }
 }
